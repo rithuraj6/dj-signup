@@ -48,12 +48,13 @@ MIDDLEWARE = [
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
 
-    # Add this ↓
-    # 'django_tutorial.middleware.DisableClientSideCachingMiddleware',
+
 
     'django.contrib.messages.middleware.MessageMiddleware',
-    # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+    
 ]
+
 
 ROOT_URLCONF = 'django_tutorial.urls'
 
